@@ -1,7 +1,34 @@
+:root {
+  --font-main: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+}
+
 .texto-menor {
   font-size: 13px;
 }
 
 .divs-facilidades {
   width: 325px;
+}
+
+.div-novidades {
+  width: 325px;
+}
+
+.color__button {
+  background-color: #9353ff;
+}
+
+.color-green {
+  color: #daff01;
+}
+
+
+@media (min-width: 768px) {
+  .div-novidades {
+    width: 690px;
+  }
 }
